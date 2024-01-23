@@ -20,9 +20,9 @@ export default function DigitalService() {
                 Vokalia and Consonantia, there live the blind texts. Separated
                 they live in Bookmarksgrove right at the coast
               </p>
-              <ul>
+              <ul className="list-custom-icon">
                 <li className="text-color mb-2">There live the blind texts</li>
-                <li className="text-color">There live the blind texts</li>
+                <li className="text-color">Far far away behind the word</li>
               </ul>
               <div>
                 <i>

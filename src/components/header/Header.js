@@ -12,7 +12,10 @@ export default function Header() {
             <div className="header">
               <h1 className="mb-4">Promote Your Products by Colorlib</h1>
               <p>
-                Another cool free html css template by <a href="#">Colorlib</a>{" "}
+                Another cool free html css template by{" "}
+                <a href="#" className="text-decoration-none primary-color">
+                  Colorlib
+                </a>{" "}
                 Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia, there live the blind texts. Separated
                 they live in Bookmarksgrove right at the coast

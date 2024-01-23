@@ -5,7 +5,7 @@ export default function Navbar() {
     <>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand fw-bold" href="#">
+          <a class="navbar-brand fw-bold pe-4" href="#">
             Launch
           </a>
           <button
@@ -24,13 +24,13 @@ export default function Navbar() {
               class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
               //   style="--bs-scroll-height: 100px;"
             >
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+              <li class="nav-item text-color pe-2">
+                <a class="nav-link active" href="#">
                   Home
                 </a>
               </li>
 
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown parent-dropdown pe-2">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
@@ -40,19 +40,35 @@ export default function Navbar() {
                 >
                   Dropdown
                 </a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu border-0 parent-menu">
                   <li>
-                    <a class="dropdown-item" href="#">
-                      Action
-                    </a>
+                    <a class="dropdown-item">Action</a>
                   </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Another action
+                  <li className="dropdown dropend child-dropdown">
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      role="hover"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Another Action
                     </a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
+                    <ul class="dropdown-menu border-0 child-menu">
+                      <li>
+                        <a class="dropdown-item">Action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Another action
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Something else here
+                        </a>
+                      </li>
+                    </ul>
                   </li>
                   <li>
                     <a class="dropdown-item" href="#">
@@ -61,29 +77,35 @@ export default function Navbar() {
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
+              <li class="nav-item pe-2">
                 <a class="nav-link" href="#">
                   Pricing
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link">Features</a>
+              <li class="nav-item pe-2">
+                <a class="nav-link" href="#">
+                  Features
+                </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link">About</a>
+              <li class="nav-item pe-2">
+                <a class="nav-link" href="#">
+                  About
+                </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link">Contact</a>
+              <li class="nav-item pe-2">
+                <a class="nav-link" href="#">
+                  Contact
+                </a>
               </li>
             </ul>
-            <ul className="navbar-nav my-2">
+            <ul className="my-2">
               <a
-                href="$#"
-                className="btn btn-outline-primary rounded-5 px-4 me-2"
+                href="#"
+                className="btn btn-outline-dark btn-sm rounded-5 px-4 me-2"
               >
                 Sign in
               </a>
-              <a href="$#" className="btn btn-primary px-4 rounded-5">
+              <a href="#" className="btn btn-primary btn-sm rounded-5 px-4">
                 Register
               </a>
             </ul>

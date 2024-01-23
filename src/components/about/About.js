@@ -28,12 +28,12 @@ export default function About() {
                 regelialia.
               </p>
               <div className="mt-4">
-                <ul className="">
+                <ul className="list-custom-icon">
                   <li className="text-color mb-2">
                     There live the blind texts
                   </li>
                   <li className="text-color mb-2">
-                    There live the blind texts
+                    Far far away behind the word
                   </li>
                   <li className="text-color">Their place and supplies</li>
                 </ul>

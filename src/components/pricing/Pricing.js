@@ -18,7 +18,7 @@ export default function Pricing() {
                       <div className="fs-3">Free</div>
                       <div>
                         <div className="fs-2 primary-color mb-3">$0</div>
-                        <ul>
+                        <ul className="list-custom-icon">
                           <li className="text-color mb-3 text-start">
                             There live the blind texts
                           </li>

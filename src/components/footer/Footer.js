@@ -98,10 +98,16 @@ export default function Footer() {
             </div>
           </div>
           <div className="text-center mt-5">
-            <p>
+            <span className="small-text text-color">
               Copyright ©2024 All rights reserved | This template is made with
-              by Colorlib
-            </p>
+              ❤️️ by{" "}
+            </span>
+            <a
+              href="#"
+              className="text-decoration-none primary-color small-text"
+            >
+              Colorlib
+            </a>
           </div>
         </div>
       </div>
