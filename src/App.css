@@ -1,9 +1,42 @@
-body {
+.pro-font-size {
+  font-weight: 500;
+  line-height: 110%;
+}
+
+.header-pad {
   padding-top: 70px;
 }
 
 .primary-color {
   color: #407BFF;
+}
+
+.sign-in {
+  border: 1px solid rgba(128, 128, 128, 0.254);
+  text-decoration: none;
+  color: #888;
+  font-size: 14px;
+  padding: 9px 20px;
+  transition: border 300ms;
+}
+
+.sign-in:hover {
+  border: 1px solid black;
+  color: #000000d5;
+}
+
+.register-btn {
+  background-color: 1px solid #407BFF;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding: 9px 20px;
+  background-color: #407BFF;
+  transition: background-color 300ms;
+}
+
+.register-btn:hover {
+  background-color: #195ae7;
 }
 
 .nav-bg {
@@ -97,7 +130,7 @@ p {
 .news-card {
   margin-top: 30px;
   cursor: pointer;
-  transition: margin-top 500ms;
+  transition: margin-top 300ms;
 }
 
 .news-card:hover {
@@ -195,4 +228,5 @@ a.footer-link {
   background-color: #fff;
   border-right: 3px solid #407BFF;
 }
+
 

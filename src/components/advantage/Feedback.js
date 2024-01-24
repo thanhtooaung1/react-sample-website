@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import profile from "../../images/person.jpg";
 import profile2 from "../../images/person_2.jpg";
 import profile3 from "../../images/person_3.jpg";
-import "../../OwlCarousel.css";
+import "../../css/OwlCarousel.css";
 
 import OwlCarousel from "react-owl-carousel";
 
@@ -13,14 +13,14 @@ export default function Feedback() {
       <div>
         <div className="row">
           <div
-            className="col-md-4"
+            className="col-md-4 mt-3 align-header"
             data-aos="fade-up"
             data-aos-once="true"
             data-aos-duration="900"
           >
             <div className="fw-semibold primary-color">TESTIMONIALS</div>
-            <div className="fs-1 fw-semibold mb-4">Our Customers Feedbck</div>
-            <div className="d-flex">
+            <div className="fs-2 fw-normal mb-4">Our Customers Feedbck</div>
+            <div className="d-flex align-center">
               <button className="control-button pre-btn me-1 border-0 rounded-2">
                 <FontAwesomeIcon icon="fas fa-arrow-left" />
               </button>
@@ -29,13 +29,26 @@ export default function Feedback() {
               </button>
             </div>
           </div>
-          <div className="col-md-8">
+          <div
+            className="col-md-8 mt-3"
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-duration="1100"
+          >
             <div className="feedback-carousel">
               <OwlCarousel
                 items={2}
                 loop
                 autoplay
                 className="owl-theme"
+                responsive={{
+                  0: {
+                    items: 1,
+                  },
+                  600: {
+                    items: 2,
+                  },
+                }}
                 margin={20}
               >
                 <div>

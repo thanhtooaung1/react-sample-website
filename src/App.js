@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import "./App.css";
+import "./css/Responsive.css";
 import About from "./components/about/About";
 import Adavntage from "./components/advantage/Adavntage";
 import Contact from "./components/contact/Contact";
@@ -30,7 +31,7 @@ function App() {
     AOS.init();
   }, []);
   return (
-    <div className="App">
+    <div className="App" id="home">
       <div className="container mb-5">
         <Header />
         <DigitalService />

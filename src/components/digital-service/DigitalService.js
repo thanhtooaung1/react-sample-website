@@ -5,10 +5,10 @@ import dashboard from "../../images/dashboard.webp";
 export default function DigitalService() {
   return (
     <>
-      <div>
-        <div style={{ height: 300 }}></div>
+      <div id="features">
+        <div style={{ height: 140 }}></div>
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-5 mt-3">
             <div className="col-md-10">
               <div
                 className="fw-semibold primary-color"
@@ -19,13 +19,12 @@ export default function DigitalService() {
                 DIGITAL SERVICES
               </div>
               <div
-                className="fs-1 fw-semibold mb-4"
+                className="fs-2 fw-normal mb-4 service-header-pad"
                 data-aos="fade-up"
                 data-aos-once="true"
                 data-aos-duration="900"
               >
-                Selling Digital
-                <br /> Services
+                Selling Digital Services
               </div>
 
               <div
@@ -60,9 +59,9 @@ export default function DigitalService() {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-7 mt-3">
             <div
-              className="card"
+              className="card border-0 shadow p-2"
               data-aos="fade-up"
               data-aos-once="true"
               data-aos-duration="1300"

@@ -19,8 +19,8 @@ export default function Adavntage() {
             <div className="fs-2">Advantage of using our products</div>
             <p>Far from the countries Vokalia and Consonantia</p>
           </div>
-          <div className="row mt-5">
-            <div className="col-md-6">
+          <div className="row">
+            <div className="col-md-6 mt-5">
               <div
                 className="d-flex align-items-start"
                 data-aos="fade-up"
@@ -41,7 +41,7 @@ export default function Adavntage() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 mt-5">
               <div
                 className="d-flex align-items-start"
                 data-aos="fade-up"
@@ -63,8 +63,8 @@ export default function Adavntage() {
               </div>
             </div>
           </div>
-          <div className="row mt-4">
-            <div className="col-md-6">
+          <div className="row">
+            <div className="col-md-6 mt-5">
               <div
                 className="d-flex align-items-start"
                 data-aos="fade-up"
@@ -85,7 +85,7 @@ export default function Adavntage() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 mt-5">
               <div
                 className="d-flex align-items-start"
                 data-aos="fade-up"

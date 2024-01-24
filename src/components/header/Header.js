@@ -5,19 +5,19 @@ import header from "../../images/header.svg";
 export default function Header() {
   return (
     <>
-      <div className="mt-3">
+      <div className="mt-3 header-pad">
         <Navbar />
         <div className="row mt-4">
-          <div className="col-md-6 text-start">
+          <div className="col-md-6">
             <div className="header">
-              <h1
-                className="mb-4"
+              <div
+                className="mb-4 pro-font-size"
                 data-aos="fade-up"
                 data-aos-once="true"
                 data-aos-duration="700"
               >
                 Promote Your Products by Colorlib
-              </h1>
+              </div>
               <p
                 data-aos="fade-up"
                 data-aos-once="true"
@@ -32,19 +32,19 @@ export default function Header() {
                 they live in Bookmarksgrove right at the coast
               </p>
               <div
-                className="d-flex mt-4"
+                className="d-flex mt-4 align-center"
                 data-aos="fade-up"
                 data-aos-once="true"
                 data-aos-duration="1200"
               >
                 <a
-                  href="#"
+                  href="#features"
                   className="btn btn-primary px-4 py-2 rounded-5 me-3"
                 >
                   See Features
                 </a>
                 <a
-                  href=""
+                  href="#pricing"
                   className="btn btn-outline-primary px-4 py-2 rounded-5"
                 >
                   Pricing
@@ -61,6 +61,7 @@ export default function Header() {
             ></img>
           </div>
         </div>
+        <div style={{ height: 140 }}></div>
       </div>
     </>
   );

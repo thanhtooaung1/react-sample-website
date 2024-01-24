@@ -13,7 +13,12 @@ export default function ServiceDashboard() {
         <div className="container my-2">
           <div>
             <div className="row">
-              <div className="col-md-7 mt-5">
+              <div
+                className="col-md-7 mt-5"
+                data-aos="fade-up"
+                data-aos-once="true"
+                data-aos-duration="800"
+              >
                 <div className="card shadow dashboard-carousel border-0 p-2 ">
                   <OwlCarousel
                     items={1}
@@ -85,7 +90,7 @@ export default function ServiceDashboard() {
               <div className="col-md-5 mt-5">
                 <div
                   className="service-card p-3 mb-3 dashboard-btn-1 service-card-clicked"
-                  data-aos="fade-left"
+                  data-aos="fade-up"
                   data-aos-once="true"
                   data-aos-duration="800"
                 >
@@ -102,7 +107,7 @@ export default function ServiceDashboard() {
                 </div>
                 <div
                   className="service-card p-3 mb-3 dashboard-btn-2"
-                  data-aos="fade-left"
+                  data-aos="fade-up"
                   data-aos-once="true"
                   data-aos-duration="1100"
                 >
@@ -119,7 +124,7 @@ export default function ServiceDashboard() {
                 </div>
                 <div
                   className="service-card p-3 mb-3 dashboard-btn-3"
-                  data-aos="fade-left"
+                  data-aos="fade-up"
                   data-aos-once="true"
                   data-aos-duration="1300"
                 >
@@ -136,7 +141,7 @@ export default function ServiceDashboard() {
                 </div>
                 <div
                   className="service-card p-3 mb-3 dashboard-btn-4"
-                  data-aos="fade-left"
+                  data-aos="fade-up"
                   data-aos-once="true"
                   data-aos-duration="1500"
                 >

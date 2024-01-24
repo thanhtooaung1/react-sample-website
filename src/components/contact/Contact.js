@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Contact() {
   return (
     <>
-      <div className="py-5">
+      <div className="py-5" id="contact">
         <div className="container my-5">
           <div
             className="text-center"
@@ -15,9 +15,9 @@ export default function Contact() {
             <div className="fs-2">Get In Touch</div>
             <p>Far from the countries Vokalia and Consonantia</p>
           </div>
-          <div className="row mt-5">
+          <div className="row">
             <div
-              className="col-md-8"
+              className="col-md-8 mt-5"
               data-aos="fade-up"
               data-aos-once="true"
               data-aos-duration="1000"
@@ -83,7 +83,7 @@ export default function Contact() {
               </form>
             </div>
             <div
-              className="col-md-4"
+              className="col-md-4 mt-5"
               data-aos="fade-up"
               data-aos-once="true"
               data-aos-duration="900"

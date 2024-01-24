@@ -5,9 +5,9 @@ export default function Footer() {
   return (
     <>
       <div className="footer-color py-4">
-        <div className="container my-5">
+        <div className="container my-2">
           <div className="row">
-            <div className="col-md-5 pe-5">
+            <div className="col-md-5 pe-5 mt-4">
               <div className="fs-6 pb-4">About Launch</div>
               <p className="small-text">
                 Far far away, behind the word mountains, far from the countries
@@ -20,8 +20,8 @@ export default function Footer() {
             </div>
             <div className="col-md-7">
               <div className="row">
-                <div className="col-md-4">
-                  <div className="fs-6 pb-4">Projects</div>
+                <div className="col-md-4 mt-4">
+                  <div className="fs-6 pb-3">Projects</div>
                   <div className="pb-2">
                     <a href="#" className="footer-link">
                       La Lega Stadium
@@ -48,8 +48,8 @@ export default function Footer() {
                     </a>
                   </div>
                 </div>
-                <div className="col-md-4">
-                  <div className="fs-6 pb-4">Services</div>
+                <div className="col-md-4 mt-4">
+                  <div className="fs-6 pb-3">Services</div>
                   <div className="pb-2">
                     <a href="#" className="footer-link">
                       Architect
@@ -71,8 +71,8 @@ export default function Footer() {
                     </a>
                   </div>
                 </div>
-                <div className="col-md-4">
-                  <div className="fs-6 pb-4">Contact</div>
+                <div className="col-md-4 mt-4">
+                  <div className="fs-6 pb-3">Contact</div>
                   <div className="pb-2">
                     <a href="#" className="footer-link">
                       43 Raymouth Rd. Baltemoer, London 3910

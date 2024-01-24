@@ -1,0 +1,25 @@
+@media screen and (min-width: 601px) {
+    .pro-font-size {
+      font-size: 75px;
+    }
+
+    .service-header-pad {
+      padding-right: 70px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .pro-font-size {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .align-center {
+    justify-content: center;
+  }
+
+  .align-header {
+    text-align: center;
+  }
+}

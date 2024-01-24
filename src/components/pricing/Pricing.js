@@ -3,7 +3,7 @@ import React from "react";
 export default function Pricing() {
   return (
     <>
-      <div className="bg-light py-4">
+      <div className="bg-light py-4" id="pricing">
         <div className="container my-5">
           <div
             className="text-center"
@@ -55,7 +55,7 @@ export default function Pricing() {
                 </div>
                 <div className="col-md-4 pt-3">
                   <div
-                    className="card card-body shadow-sm rounded-5 border-0"
+                    className="card card-body shadow rounded-5 border-0"
                     data-aos="fade-up"
                     data-aos-once="true"
                     data-aos-duration="1000"
