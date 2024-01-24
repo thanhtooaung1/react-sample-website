@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./App.css";
 import About from "./components/about/About";
 import Adavntage from "./components/advantage/Adavntage";
@@ -16,7 +17,18 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { far } from "@fortawesome/free-regular-svg-icons";
 
+//for carousel slider
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+
+//AOS animation
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="App">
       <div className="container mb-5">

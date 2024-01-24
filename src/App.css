@@ -1,5 +1,13 @@
+body {
+  padding-top: 70px;
+}
+
 .primary-color {
   color: #407BFF;
+}
+
+.nav-bg {
+  background-color: #fff;
 }
 
 .header h1 {
@@ -36,18 +44,30 @@ p {
 
 .list-custom-icon {
   list-style: none;
-  margin-left: 0;
-  padding-left: 0;
+  padding: 0;
+  margin: 20px;
 }
 
 .list-custom-icon li:before {
+  display: inline-block;
+  width: 20px;
   content: "✓";
-  padding-right: 5px;
+  margin-left: -20px;
   color: #407BFF;
 }
 
 .bg-light {
  background-color: #f8f9fa;
+}
+
+.service-card {
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.service-card:hover {
+  background-color: #fff;
+  /* border-right: 2px solid #407BFF; */
 }
 
 .service-icon {
@@ -74,6 +94,16 @@ p {
   background-color: #407BFF;
 }
 
+.news-card {
+  margin-top: 30px;
+  cursor: pointer;
+  transition: margin-top 500ms;
+}
+
+.news-card:hover {
+  margin-top: 20px;
+}
+
 .new-text {
   color: black;
 }
@@ -85,6 +115,28 @@ p {
 .right-arrow-size {
   font-size: 25px;
 }
+
+.next-button {
+  width: 50px;
+  margin-left: 0;
+  transition: margin 500ms;
+}
+
+.next-button:hover {
+  margin-left: 30px;
+}
+
+.page-num-indicator {
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  color: white;
+  font-weight: 500;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 255, 0.2);
+  background-color: #407BFF;
+}
+
+
 
 input.form-control, textarea.form-control {
   background: transparent;
@@ -117,5 +169,30 @@ a.footer-link {
   width: 30px;
   height: 30px;
   background-color: #888;
+}
+
+.social-icon:hover {
+  background-color: #407BFF;
+}
+
+.control-button {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  color: #ffffff;
+}
+
+.control-button:hover {
+  background-color: #407BFF;
+}
+
+.img {
+  height: 260px;width:200px;
+  background-color: red;  
+}
+
+.service-card-clicked {
+  background-color: #fff;
+  border-right: 3px solid #407BFF;
 }
 

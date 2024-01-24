@@ -1,0 +1,58 @@
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+
+@property --team {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  .member {
+    transition: --num 4s;
+    counter-set: num var(--num);
+  }
+
+  .member::after {
+    content: counter(num);
+  }
+  .member {
+    --num: 59;
+  }
+
+  .team {
+    transition: --team 4s;
+    counter-set: num var(--team);
+  }
+
+  .team::after {
+    content: counter(num);
+  }
+  .team {
+    --team: 59;
+  }
+
+  body[data-aos-duration='4000'] [data-aos],
+  [data-aos][data-aos][data-aos-duration='4000'] {
+    transition-duration: 4000ms;
+  }
+
+  [data-aos="member-count-up"] {
+    --num: 0;
+    transition-property: --num;
+    &.aos-animate {
+      --num: 59;
+    }
+  }
+
+  [data-aos="team-count-up"] {
+    --team: 0;
+    transition-property: --team;
+    &.aos-animate {
+      --team: 14;
+    }
+  }
+
+  

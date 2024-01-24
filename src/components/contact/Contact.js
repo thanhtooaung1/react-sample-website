@@ -6,12 +6,22 @@ export default function Contact() {
     <>
       <div className="py-5">
         <div className="container my-5">
-          <div className="text-center">
+          <div
+            className="text-center"
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-duration="600"
+          >
             <div className="fs-2">Get In Touch</div>
             <p>Far from the countries Vokalia and Consonantia</p>
           </div>
           <div className="row mt-5">
-            <div className="col-md-8">
+            <div
+              className="col-md-8"
+              data-aos="fade-up"
+              data-aos-once="true"
+              data-aos-duration="1000"
+            >
               <form className="pe-5">
                 <div className="row">
                   <div className="col-md-6">
@@ -72,7 +82,12 @@ export default function Contact() {
                 </button>
               </form>
             </div>
-            <div className="col-md-4">
+            <div
+              className="col-md-4"
+              data-aos="fade-up"
+              data-aos-once="true"
+              data-aos-duration="900"
+            >
               <div className="fs-4 mb-4">Contact Info</div>
               <div className="mb-3">
                 <FontAwesomeIcon icon="fas fa-location-dot" className="me-3" />

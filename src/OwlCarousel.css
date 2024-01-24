@@ -1,0 +1,8 @@
+.owl-theme .owl-dots .owl-dot span {
+    background: #D6D6D6;
+}
+
+.owl-carousel .owl-dots .owl-dot.active span,
+.owl-carousel .owl-dots .owl-dot:hover span {
+    background-color: #0088cc;
+}

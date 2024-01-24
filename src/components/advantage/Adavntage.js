@@ -10,13 +10,23 @@ export default function Adavntage() {
     <>
       <div className="container">
         <div className="py-5">
-          <div className="text-center">
+          <div
+            className="text-center"
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-duration="600"
+          >
             <div className="fs-2">Advantage of using our products</div>
             <p>Far from the countries Vokalia and Consonantia</p>
           </div>
           <div className="row mt-5">
             <div className="col-md-6">
-              <div className="d-flex align-items-start">
+              <div
+                className="d-flex align-items-start"
+                data-aos="fade-up"
+                data-aos-once="true"
+                data-aos-duration="900"
+              >
                 <IconOne />
                 <div className="align-items-start ms-4">
                   <div className="fs-5 mb-3">Group Your Business</div>
@@ -32,7 +42,12 @@ export default function Adavntage() {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="d-flex align-items-start">
+              <div
+                className="d-flex align-items-start"
+                data-aos="fade-up"
+                data-aos-once="true"
+                data-aos-duration="1100"
+              >
                 <IconTwo />
                 <div className="align-items-start ms-4">
                   <div className="fs-5 mb-3">Build Products</div>
@@ -50,7 +65,12 @@ export default function Adavntage() {
           </div>
           <div className="row mt-4">
             <div className="col-md-6">
-              <div className="d-flex align-items-start">
+              <div
+                className="d-flex align-items-start"
+                data-aos="fade-up"
+                data-aos-once="true"
+                data-aos-duration="1300"
+              >
                 <IconThree />
                 <div className="align-items-start ms-4">
                   <div className="fs-5 mb-3">Success Every Day</div>
@@ -66,7 +86,12 @@ export default function Adavntage() {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="d-flex align-items-start">
+              <div
+                className="d-flex align-items-start"
+                data-aos="fade-up"
+                data-aos-once="true"
+                data-aos-duration="1500"
+              >
                 <IconFour />
                 <div className="align-items-start ms-4">
                   <div className="fs-5 mb-3">Bring Ideas to Life</div>
