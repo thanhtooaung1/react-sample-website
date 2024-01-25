@@ -10,7 +10,7 @@ import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Pricing from "./components/pricing/Pricing";
 
-//import library
+//import fontawesome library
 import { library } from "@fortawesome/fontawesome-svg-core";
 
 //import icons

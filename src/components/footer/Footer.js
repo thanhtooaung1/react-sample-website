@@ -74,7 +74,7 @@ export default function Footer() {
                 <div className="col-md-4 mt-4">
                   <div className="fs-6 pb-3">Contact</div>
                   <div className="pb-2">
-                    <a href="#" className="footer-link">
+                    <a className="footer-link">
                       43 Raymouth Rd. Baltemoer, London 3910
                     </a>
                   </div>
@@ -97,7 +97,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="text-center mt-5">
+          <div className="text-center mt-5 py-3">
             <span className="small-text text-color">
               Copyright ©2024 All rights reserved | This template is made with
               ❤️️ by{" "}

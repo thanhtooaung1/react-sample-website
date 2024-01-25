@@ -4,7 +4,7 @@ export default function Pricing() {
   return (
     <>
       <div className="bg-light py-4" id="pricing">
-        <div className="container my-5">
+        <div className="container my-3">
           <div
             className="text-center"
             data-aos="fade-up"
@@ -15,9 +15,9 @@ export default function Pricing() {
             <p>Pricing for everyone. Choose your plan now!</p>
           </div>
           <div className="d-flex justify-content-center my-4">
-            <div className="col-md-10 py-1">
+            <div className="col-lg-10 py-1">
               <div className="row">
-                <div className="col-md-4 pt-3">
+                <div className="col-lg-4 pt-3">
                   <div
                     className="card card-body shadow-sm rounded-5 border-0"
                     data-aos="fade-up"
@@ -53,7 +53,7 @@ export default function Pricing() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-4 pt-3">
+                <div className="col-lg-4 pt-3">
                   <div
                     className="card card-body shadow rounded-5 border-0"
                     data-aos="fade-up"
@@ -89,7 +89,7 @@ export default function Pricing() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-4 pt-3">
+                <div className="col-lg-4 pt-3">
                   <div
                     className="card card-body shadow-sm rounded-5 border-0"
                     data-aos="fade-up"

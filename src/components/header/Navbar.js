@@ -6,7 +6,7 @@ export default function Navbar() {
       <div
       // data-aos="fade" data-aos-once="true" data-aos-duration="2000"
       >
-        <nav class="navbar fixed-top navbar-expand-lg nav-bg">
+        <nav id="navbar" class="navbar navbar-expand-lg nav-bg">
           <div class="container-fluid container">
             <div
               class="fw-bold pe-4 text-decoration-none text-dark text-center"
@@ -31,17 +31,17 @@ export default function Navbar() {
               aria-labelledby="offcanvasNavbarLabel"
             >
               <div class="offcanvas-header">
-                <button
+                <a
                   type="button"
                   class="btn-close"
                   data-bs-dismiss="offcanvas"
                   aria-label="Close"
-                ></button>
+                ></a>
               </div>
               <div class="offcanvas-body">
                 <ul class="navbar-nav my-auto me-auto">
                   <li class="nav-item text-color pe-2">
-                    <a class="nav-link active" href="#root">
+                    <a class="nav-link active" href="#home">
                       Home
                     </a>
                   </li>
@@ -69,7 +69,7 @@ export default function Navbar() {
                         >
                           Another Action
                         </a>
-                        <ul class="dropdown-menu border-0 child-menu">
+                        <ul class="dropdown-menu child-menu">
                           <li>
                             <a class="dropdown-item">Action</a>
                           </li>
@@ -114,10 +114,10 @@ export default function Navbar() {
                   </li>
                 </ul>
                 <ul className="my-2">
-                  <a href="#" className="rounded-5 px-4 me-2 sign-in">
+                  <a href="#home" className="rounded-5 px-4 me-2 sign-in">
                     Sign in
                   </a>
-                  <a href="#" className="rounded-5 px-4 register-btn">
+                  <a href="#home" className="rounded-5 px-4 register-btn">
                     Register
                   </a>
                 </ul>

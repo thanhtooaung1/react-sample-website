@@ -3,7 +3,7 @@ import React from "react";
 export default function IconThree() {
   return (
     <>
-      <div class="service-icon color-red mb-4 rounded-3 shadow-sm mt-1 flex-shrink-0">
+      <div class="service-icon color-red rounded-3 shadow-sm mt-1 flex-shrink-0">
         <svg
           class="bi bi-briefcase"
           width="1em"

@@ -5,10 +5,18 @@ import header from "../../images/header.svg";
 export default function Header() {
   return (
     <>
-      <div className="mt-3 header-pad">
+      <div className="mt-3">
         <Navbar />
-        <div className="row mt-4">
-          <div className="col-md-6">
+        <div className="row d-flex mt-5">
+          <div className="col-lg-6 order-lg-1">
+            <img
+              src={header}
+              data-aos="fade-right"
+              data-aos-once="true"
+              data-aos-duration="1200"
+            ></img>
+          </div>
+          <div className="col-lg-6 order-lg-0">
             <div className="header">
               <div
                 className="mb-4 pro-font-size"
@@ -52,16 +60,8 @@ export default function Header() {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
-            <img
-              src={header}
-              data-aos="fade-right"
-              data-aos-once="true"
-              data-aos-duration="1200"
-            ></img>
-          </div>
         </div>
-        <div style={{ height: 140 }}></div>
+        <div style={{ height: 120 }}></div>
       </div>
     </>
   );

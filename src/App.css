@@ -1,22 +1,25 @@
+/* For header text */
 .pro-font-size {
   font-weight: 500;
   line-height: 110%;
 }
 
-.header-pad {
+/* Padding top for header section */
+/* .header-pad {
   padding-top: 70px;
-}
+} */
 
 .primary-color {
   color: #407BFF;
 }
 
+/* sing in button */
 .sign-in {
   border: 1px solid rgba(128, 128, 128, 0.254);
   text-decoration: none;
   color: #888;
   font-size: 14px;
-  padding: 9px 20px;
+  padding: 8px 20px;
   transition: border 300ms;
 }
 
@@ -25,12 +28,13 @@
   color: #000000d5;
 }
 
+/* Register button */
 .register-btn {
   background-color: 1px solid #407BFF;
   text-decoration: none;
   color: white;
   font-size: 14px;
-  padding: 9px 20px;
+  padding: 8px 20px;
   background-color: #407BFF;
   transition: background-color 300ms;
 }
@@ -39,22 +43,28 @@
   background-color: #195ae7;
 }
 
+/* Fixed Navbar background */
 .nav-bg {
   background-color: #fff;
 }
 
-.header h1 {
-  font-size: 4rem;
-}
-
+/* Navbar item font size */
 .navbar li {
   font-size: 14px;
 }
 
 .navbar .parent-dropdown:hover .parent-menu {
   display: block;
+  /* border: none; */
+  box-shadow: 0 4px 8px 0 rgba(163, 163, 173, 0.2);
+}
+
+.child-dropdown:hover .child-menu {
+  display: block;
   border: none;
-  box-shadow: #efefef;
+  left: 100%;
+  top: 0;
+  box-shadow: 0 4px 8px 0 rgba(163, 163, 173, 0.2);
 }
 
 /* .navbar .child-dropdown:hover .child-menu {
@@ -227,6 +237,11 @@ a.footer-link {
 .service-card-clicked {
   background-color: #fff;
   border-right: 3px solid #407BFF;
+}
+
+.navbar-transition {
+  
+  transition: 500s;
 }
 
 

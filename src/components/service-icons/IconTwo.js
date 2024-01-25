@@ -3,7 +3,7 @@ import React from "react";
 export default function IconTwo() {
   return (
     <>
-      <div class="service-icon color-yellow mb-4 rounded-3 shadow-sm mt-1 flex-shrink-0">
+      <div class="service-icon color-yellow rounded-3 shadow-sm mt-1 flex-shrink-0">
         <svg
           class="bi bi-arrow-repeat"
           width="1em"

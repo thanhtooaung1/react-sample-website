@@ -20,7 +20,7 @@ export default function Adavntage() {
             <p>Far from the countries Vokalia and Consonantia</p>
           </div>
           <div className="row">
-            <div className="col-md-6 mt-5">
+            <div className="col-md-6 mt-4">
               <div
                 className="d-flex align-items-start"
                 data-aos="fade-up"
@@ -29,7 +29,7 @@ export default function Adavntage() {
               >
                 <IconOne />
                 <div className="align-items-start ms-4">
-                  <div className="fs-5 mb-3">Group Your Business</div>
+                  <div className="fs-5 mb-2">Group Your Business</div>
                   <p>
                     Far far away, behind the word mountains, far from the
                     countries Vokalia and Consonantia, there live the blind
@@ -41,7 +41,7 @@ export default function Adavntage() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 mt-5">
+            <div className="col-md-6 mt-4">
               <div
                 className="d-flex align-items-start"
                 data-aos="fade-up"
@@ -50,7 +50,7 @@ export default function Adavntage() {
               >
                 <IconTwo />
                 <div className="align-items-start ms-4">
-                  <div className="fs-5 mb-3">Build Products</div>
+                  <div className="fs-5 mb-2">Build Products</div>
                   <p>
                     Far far away, behind the word mountains, far from the
                     countries Vokalia and Consonantia, there live the blind
@@ -64,7 +64,7 @@ export default function Adavntage() {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-6 mt-5">
+            <div className="col-md-6 mt-4">
               <div
                 className="d-flex align-items-start"
                 data-aos="fade-up"
@@ -73,7 +73,7 @@ export default function Adavntage() {
               >
                 <IconThree />
                 <div className="align-items-start ms-4">
-                  <div className="fs-5 mb-3">Success Every Day</div>
+                  <div className="fs-5 mb-2">Success Every Day</div>
                   <p>
                     Far far away, behind the word mountains, far from the
                     countries Vokalia and Consonantia, there live the blind
@@ -85,7 +85,7 @@ export default function Adavntage() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 mt-5">
+            <div className="col-md-6 mt-4">
               <div
                 className="d-flex align-items-start"
                 data-aos="fade-up"
@@ -94,7 +94,7 @@ export default function Adavntage() {
               >
                 <IconFour />
                 <div className="align-items-start ms-4">
-                  <div className="fs-5 mb-3">Bring Ideas to Life</div>
+                  <div className="fs-5 mb-2">Bring Ideas to Life</div>
                   <p>
                     Far far away, behind the word mountains, far from the
                     countries Vokalia and Consonantia, there live the blind
@@ -108,9 +108,7 @@ export default function Adavntage() {
             </div>
           </div>
         </div>
-        <div style={{ height: 200 }}></div>
         <Feedback />
-        <div style={{ height: 200 }}></div>
       </div>
     </>
   );

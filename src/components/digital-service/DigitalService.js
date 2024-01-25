@@ -6,9 +6,18 @@ export default function DigitalService() {
   return (
     <>
       <div id="features">
-        <div style={{ height: 140 }}></div>
-        <div className="row">
-          <div className="col-md-5 mt-3">
+        <div className="row d-flex">
+          <div className="col-lg-7 mt-3 order-lg-1">
+            <div
+              className="card border-0 shadow p-2"
+              data-aos="fade-up"
+              data-aos-once="true"
+              data-aos-duration="1300"
+            >
+              <img src={dashboard} />
+            </div>
+          </div>
+          <div className="col-lg-5 mt-3 order-lg-0">
             <div className="col-md-10">
               <div
                 className="fw-semibold primary-color"
@@ -19,7 +28,7 @@ export default function DigitalService() {
                 DIGITAL SERVICES
               </div>
               <div
-                className="fs-2 fw-normal mb-4 service-header-pad"
+                className="fs-2 fw-normal mb-4 subtitle-padding"
                 data-aos="fade-up"
                 data-aos-once="true"
                 data-aos-duration="900"
@@ -59,18 +68,8 @@ export default function DigitalService() {
               </div>
             </div>
           </div>
-          <div className="col-md-7 mt-3">
-            <div
-              className="card border-0 shadow p-2"
-              data-aos="fade-up"
-              data-aos-once="true"
-              data-aos-duration="1300"
-            >
-              <img src={dashboard} />
-            </div>
-          </div>
         </div>
-        <div style={{ height: 100 }}></div>
+        {/* <div style={{ height: 100 }}></div> */}
       </div>
     </>
   );

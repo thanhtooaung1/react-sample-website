@@ -5,48 +5,46 @@ import IconOne from "../service-icons/IconOne";
 import IconTwo from "../service-icons/IconTwo";
 import IconThree from "../service-icons/IconThree";
 import IconFour from "../service-icons/IconFour";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function ServiceDashboard() {
   return (
     <>
-      <div className="bg-light py-5">
+      <div className="bg-light py-2">
         <div className="container my-2">
           <div>
             <div className="row">
               <div
-                className="col-md-7 mt-5"
+                className="col-lg-7 mt-5"
                 data-aos="fade-up"
                 data-aos-once="true"
                 data-aos-duration="800"
               >
                 <div className="card shadow dashboard-carousel border-0 p-2 ">
-                  <OwlCarousel
-                    items={1}
-                    loop
-                    autoplay
-                    dots={false}
-                    className="owl-theme"
-                    margin={20}
+                  <div
+                    id="carouselDashboardIndicators"
+                    className="carousel slide"
+                    data-bs-ride="true"
                   >
-                    <div>
-                      <div className="border-0">
-                        <div>
-                          <div className="position-relative">
-                            <img src={dashboard} height="120%" />
-                            <div class="position-absolute page-num-indicator end-50 rounded-circle d-flex justify-content-center align-items-center">
-                              <div className="">
-                                <div>1/4</div>
+                    <div className="carousel-inner">
+                      <div className="carousel-item active">
+                        <div className="card border-0">
+                          <div>
+                            <div className="position-relative">
+                              <img src={dashboard} width="100%" />
+                              <div class="position-absolute page-num-indicator end-50 rounded-circle d-flex justify-content-center align-items-center">
+                                <div className="">
+                                  <div>1/4</div>
+                                </div>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div>
-                      <div className="card border-0">
+                      <div className="border-0 carousel-item">
                         <div>
                           <div className="position-relative">
-                            <img src={dashboard} height="120%" />
+                            <img src={dashboard} width="100%" />
                             <div class="position-absolute page-num-indicator end-50 rounded-circle d-flex justify-content-center align-items-center">
                               <div className="">
                                 <div>2/4</div>
@@ -55,12 +53,10 @@ export default function ServiceDashboard() {
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div>
-                      <div className="card border-0">
+                      <div className="border-0 carousel-item">
                         <div>
                           <div className="position-relative">
-                            <img src={dashboard} height="120%" />
+                            <img src={dashboard} width="100%" />
                             <div class="position-absolute page-num-indicator end-50 rounded-circle d-flex justify-content-center align-items-center">
                               <div className="">
                                 <div>3/4</div>
@@ -69,12 +65,10 @@ export default function ServiceDashboard() {
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div>
-                      <div className="card border-0">
+                      <div className="border-0 carousel-item">
                         <div>
                           <div className="position-relative">
-                            <img src={dashboard} height="120%" />
+                            <img src={dashboard} width="100%" />
                             <div class="position-absolute page-num-indicator end-50 rounded-circle d-flex justify-content-center align-items-center">
                               <div className="">
                                 <div>4/4</div>
@@ -84,10 +78,10 @@ export default function ServiceDashboard() {
                         </div>
                       </div>
                     </div>
-                  </OwlCarousel>
+                  </div>
                 </div>
               </div>
-              <div className="col-md-5 mt-5">
+              <div className="col-lg-5 mt-5">
                 <div
                   className="service-card p-3 mb-3 dashboard-btn-1 service-card-clicked"
                   data-aos="fade-up"
@@ -106,6 +100,7 @@ export default function ServiceDashboard() {
                   </div>
                 </div>
                 <div
+                  id="button-one"
                   className="service-card p-3 mb-3 dashboard-btn-2"
                   data-aos="fade-up"
                   data-aos-once="true"
@@ -162,54 +157,54 @@ export default function ServiceDashboard() {
         </div>
       </div>
       <div className="container my-5">
-        <div className="row py-5">
+        <div className="row py-3">
           <div
-            className="col-md-3"
+            className="col-lg-3"
             data-aos="fade-up"
             data-aos-once="true"
             data-aos-duration="600"
           >
             <IconOne />
-            <div className="fs-5 my-3">Group Your Business</div>
+            <div className="fs-5 my-2">Group Your Business</div>
             <p>
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts.
             </p>
           </div>
           <div
-            className="col-md-3"
+            className="col-lg-3"
             data-aos="fade-up"
             data-aos-once="true"
             data-aos-duration="800"
           >
             <IconTwo />
-            <div className="fs-5 my-3">Build Products</div>
+            <div className="fs-5 my-2">Build Products</div>
             <p>
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts.
             </p>
           </div>
           <div
-            className="col-md-3"
+            className="col-lg-3"
             data-aos="fade-up"
             data-aos-once="true"
             data-aos-duration="1000"
           >
             <IconThree />
-            <div className="fs-5 my-3">Success Every Day</div>
+            <div className="fs-5 my-2">Success Every Day</div>
             <p>
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts.
             </p>
           </div>
           <div
-            className="col-md-3"
+            className="col-lg-3"
             data-aos="fade-up"
             data-aos-once="true"
             data-aos-duration="1200"
           >
             <IconFour />
-            <div className="fs-5 my-3">Bring Ideas to Life</div>
+            <div className="fs-5 my-2">Bring Ideas to Life</div>
             <p>
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts.
@@ -220,3 +215,13 @@ export default function ServiceDashboard() {
     </>
   );
 }
+
+// function dosome() {
+//   var buttonOne = document.getElementById("button-one");
+//   buttonOne.addEventListener("click", myFunction);
+
+//   function myFunction() {
+//     // const carousel = new bootstrap.Carousel("#carouselDashboardIndicators");
+//     // carousel.next();
+//   }
+// }

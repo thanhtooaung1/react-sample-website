@@ -41,54 +41,15 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script>
-      $(document).ready(function() {
-
-        //For feedback carousel
-        var owl = $('.feedback-carousel .owl-carousel');
-
-        //For dashboard carousel
-        var dashboardOwl = $('.dashboard-carousel .owl-carousel');
-
-        //Handle dashboard slide change event
-        dashboardOwl.on('changed.owl.carousel', function(e) {
-          changeSlide(e.item.index -1);
-          
-        });
-
-        //For feeback carousel pre button
-        $('.pre-btn').click(function() {
-          owl.trigger('prev.owl.carousel')
-        });
-
-        //For feeback carousel next button
-        $('.next-btn').click(function() {
-          owl.trigger('next.owl.carousel')
-        });
-
-
-        // For dashboard button click
-        for(let i=1; i <= 4; i++) {            
-          var btnName = ".dashboard-btn-" + i;
-          $(btnName).click(function() {
-            dashboardOwl.trigger('to.owl.carousel', [i-1])
-          });
-          }
-      
+      window.addEventListener("scroll", (event) => {
+        var navbar = document.getElementById("navbar");
+        let scroll = this.scrollY;
+        if (scroll > 500) {
+          navbar.classList.add("fixed-top", "shadow-sm");
+        } else {
+          navbar.classList.remove("fixed-top", "shadow-sm");
+        }
       });
-
-      //Add service card border when slide change
-      function changeSlide(index) {
-        for(let i=1; i <= 4; i++) {
-            var btnName = ".dashboard-btn-" + i;
-            
-            if(i == index) {
-            $(btnName).addClass('service-card-clicked');
-            } else {
-            $(btnName).removeClass('service-card-clicked');
-            }
-          }
-      }
-
     </script>
   </body>
 </html>

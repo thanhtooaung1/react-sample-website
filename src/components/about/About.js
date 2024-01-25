@@ -10,7 +10,7 @@ export default function About() {
         <div className="container">
           <div className="py-5">
             <div className="row">
-              <div className="col-md-8">
+              <div className="col-lg-8">
                 <div
                   className="card border-0"
                   data-aos="fade-up"
@@ -20,7 +20,7 @@ export default function About() {
                   <img src={about} />
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-lg-4">
                 <div
                   data-aos="fade-up"
                   data-aos-once="true"

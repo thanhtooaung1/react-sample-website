@@ -3,7 +3,7 @@ import React from "react";
 export default function IconFour() {
   return (
     <>
-      <div class="service-icon color-blue mb-4 rounded-3 shadow-sm mt-1 flex-shrink-0">
+      <div class="service-icon color-blue rounded-3 shadow-sm mt-1 flex-shrink-0">
         <svg
           class="bi bi-collection"
           width="1em"

@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function News() {
   return (
     <>
-      <div className="bg-light py-5">
+      <div className="bg-light py-3">
         <div className="container my-5">
           <div
             className="text-center"
@@ -19,7 +19,7 @@ export default function News() {
             <p>Far from the countries Vokalia and Consonantia</p>
           </div>
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-lg-4">
               <div
                 data-aos="fade-up"
                 data-aos-once="true"
@@ -54,7 +54,7 @@ export default function News() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-lg-4">
               <div
                 data-aos="fade-up"
                 data-aos-once="true"
@@ -89,7 +89,7 @@ export default function News() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-lg-4">
               <div
                 data-aos="fade-up"
                 data-aos-once="true"
