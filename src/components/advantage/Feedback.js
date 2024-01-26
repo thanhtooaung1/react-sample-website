@@ -73,7 +73,70 @@ export default function Feedback() {
                 </div>
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <div className="card border-0 col-md-6">
+                    <div className="card border-0 ">
+                      <div>
+                        <i>
+                          “Separated they live in Bookmarksgrove right at the
+                          coast of the Semantics, a large language ocean. A
+                          small river named Duden flows by their place and
+                          supplies it with the necessary regelialia. ”
+                        </i>
+                        <div className="d-flex justify-content-start mt-4">
+                          <div
+                            style={{
+                              width: "50px",
+                              height: "50px",
+                            }}
+                          >
+                            <img
+                              className="rounded-circle flex-shrink-1"
+                              src={profile}
+                              width={50}
+                              height={50}
+                            />
+                          </div>
+                          <div className="ms-3">
+                            <div className="small-text">James Anderson</div>
+                            <p>Facebook, Product Lead</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="carousel-item">
+                    <div className="card border-0">
+                      <div>
+                        <i>
+                          “Separated they live in Bookmarksgrove right at the
+                          coast of the Semantics, a large language ocean. A
+                          small river named Duden flows by their place and
+                          supplies it with the necessary regelialia. ”
+                        </i>
+                        <div className="d-flex justify-content-start mt-4">
+                          <div
+                            style={{
+                              width: "50px",
+                              height: "50px",
+                            }}
+                          >
+                            <img
+                              className="rounded-circle flex-shrink-1"
+                              src={profile3}
+                              width={50}
+                              height={50}
+                            />
+                          </div>
+                          <div className="ms-3">
+                            <div className="small-text">James Anderson</div>
+                            <p>Facebook, Product Lead</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <div className="card border-0 ">
                       <div>
                         <i>
                           “Separated they live in Bookmarksgrove right at the
@@ -101,43 +164,6 @@ export default function Feedback() {
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div></div>
-                  </div>
-
-                  <div className="carousel-item">
-                    <div className="row">
-                      <div className="card border-0 col-md-6">
-                        <div>
-                          <i>
-                            “Separated they live in Bookmarksgrove right at the
-                            coast of the Semantics, a large language ocean. A
-                            small river named Duden flows by their place and
-                            supplies it with the necessary regelialia. ”
-                          </i>
-                          <div className="d-flex justify-content-start mt-4">
-                            <div
-                              style={{
-                                width: "50px",
-                                height: "50px",
-                              }}
-                            >
-                              <img
-                                className="rounded-circle flex-shrink-1"
-                                src={profile3}
-                                width={50}
-                                height={50}
-                              />
-                            </div>
-                            <div className="ms-3">
-                              <div className="small-text">James Anderson</div>
-                              <p>Facebook, Product Lead</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div></div>
                     </div>
                   </div>
                 </div>

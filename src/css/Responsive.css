@@ -6,12 +6,22 @@
     .subtitle-padding {
       padding-right: 70px;
     }
+
+    .feedback-carousel .carousel-inner .carousel-item {
+      width: 50%;
+      float: left;
+      margin-left: 10px;
+      position: relative;
+      transition: transform 0.6s ease;
+    }
   }
+
+  
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
   .pro-font-size {
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
   }
 

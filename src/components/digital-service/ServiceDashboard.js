@@ -29,6 +29,7 @@ export default function ServiceDashboard() {
                     id="carouselDashboardIndicators"
                     className="carousel slide"
                     data-bs-ride="carousel"
+                    data-interval="3000"
                   >
                     <div className="carousel-inner">
                       <div className="carousel-item active">
@@ -36,7 +37,7 @@ export default function ServiceDashboard() {
                           <div>
                             <div className="position-relative">
                               <img src={dashboard} width="100%" />
-                              <div class="position-absolute page-num-indicator end-50 rounded-circle d-flex justify-content-center align-items-center">
+                              <div className="position-absolute page-num-indicator end-50 rounded-circle d-flex justify-content-center align-items-center">
                                 <div className="">
                                   <div>1/4</div>
                                 </div>
@@ -49,7 +50,7 @@ export default function ServiceDashboard() {
                         <div>
                           <div className="position-relative">
                             <img src={dashboard} width="100%" />
-                            <div class="position-absolute page-num-indicator end-50 rounded-circle d-flex justify-content-center align-items-center">
+                            <div className="position-absolute page-num-indicator end-50 rounded-circle d-flex justify-content-center align-items-center">
                               <div className="">
                                 <div>2/4</div>
                               </div>
@@ -61,7 +62,7 @@ export default function ServiceDashboard() {
                         <div>
                           <div className="position-relative">
                             <img src={dashboard} width="100%" />
-                            <div class="position-absolute page-num-indicator end-50 rounded-circle d-flex justify-content-center align-items-center">
+                            <div className="position-absolute page-num-indicator end-50 rounded-circle d-flex justify-content-center align-items-center">
                               <div className="">
                                 <div>3/4</div>
                               </div>
@@ -73,7 +74,7 @@ export default function ServiceDashboard() {
                         <div>
                           <div className="position-relative">
                             <img src={dashboard} width="100%" />
-                            <div class="position-absolute page-num-indicator end-50 rounded-circle d-flex justify-content-center align-items-center">
+                            <div className="position-absolute page-num-indicator end-50 rounded-circle d-flex justify-content-center align-items-center">
                               <div className="">
                                 <div>4/4</div>
                               </div>
@@ -93,9 +94,9 @@ export default function ServiceDashboard() {
                   data-aos-once="true"
                   data-aos-duration="800"
                 >
-                  <div class="d-flex align-items-start service text-decoration-none">
+                  <div className="d-flex align-items-start service text-decoration-none">
                     <IconOne />
-                    <div class="service-contents flex-grow-1 ms-4">
+                    <div className="service-contents flex-grow-1 ms-4">
                       <div className="fs-5">Grow Your Business</div>
                       <p>
                         Far far away, behind the word mountains, far from the
@@ -147,9 +148,9 @@ export default function ServiceDashboard() {
                   data-aos-once="true"
                   data-aos-duration="1500"
                 >
-                  <div class="d-flex align-items-start service ">
+                  <div className="d-flex align-items-start service ">
                     <IconFour />
-                    <div class="service-contents flex-grow-1 ms-4">
+                    <div className="service-contents flex-grow-1 ms-4">
                       <div className="fs-5">Bring Idea to Life</div>
                       <p>
                         Far far away, behind the word mountains, far from the
@@ -226,10 +227,6 @@ export default function ServiceDashboard() {
 // Add bootstrap to window
 function addBootstrapToWindow() {
   let myCarousel = document.getElementById("carouselDashboardIndicators");
-  new bootstrap.Carousel(myCarousel, {
-    interval: 3000,
-    ride: "carousel",
-  });
   myCarousel.addEventListener("slide.bs.carousel", (event) => {
     addBorder(event.to);
   });
