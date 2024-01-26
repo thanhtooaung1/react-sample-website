@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import profile from "../../images/person.jpg";
 import profile2 from "../../images/person_2.jpg";
 import profile3 from "../../images/person_3.jpg";
-import "../../css/OwlCarousel.css";
 
 export default function Feedback() {
   return (

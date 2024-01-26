@@ -26,7 +26,7 @@ export default function Contact() {
                 <div className="row">
                   <div className="col-md-6">
                     <div className="mb-3">
-                      <label for="first_name" className="form-label">
+                      <label htmlFor="first_name" className="form-label">
                         First Name
                       </label>
                       <input
@@ -39,7 +39,7 @@ export default function Contact() {
                   </div>
                   <div className="col-md-6">
                     <div className="mb-3">
-                      <label for="last_name" className="form-label">
+                      <label htmlFor="last_name" className="form-label">
                         Last Name
                       </label>
                       <input
@@ -52,7 +52,7 @@ export default function Contact() {
                   </div>
                 </div>
                 <div className="mb-3">
-                  <label for="email" className="form-label">
+                  <label htmlFor="email" className="form-label">
                     Email address
                   </label>
                   <input
@@ -63,7 +63,7 @@ export default function Contact() {
                   />
                 </div>
                 <div className="mb-3">
-                  <label for="message" className="form-label">
+                  <label htmlFor="message" className="form-label">
                     Message
                   </label>
                   <textarea
