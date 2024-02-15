@@ -44,11 +44,13 @@
     <script>
       window.addEventListener("scroll", (event) => {
         var navbar = document.getElementById("navbar");
-        let scroll = this.scrollY;
-        if (scroll > 500) {
-          navbar.classList.add("fixed-top", "shadow-sm");
-        } else {
-          navbar.classList.remove("fixed-top", "shadow-sm");
+        if (navbar) {
+          let scroll = this.scrollY;
+          if (scroll > 10) {
+            navbar.classList.add("fixed-top", "shadow-sm");
+          } else {
+            navbar.classList.remove("fixed-top", "shadow-sm");
+          }
         }
       });
     </script>

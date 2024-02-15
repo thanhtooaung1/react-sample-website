@@ -1,4 +1,4 @@
-import { React, useEffect } from "react";
+import { React, useEffect, useState } from "react";
 import dashboard from "../../images/dashboard.webp";
 import IconOne from "../service-icons/IconOne";
 import IconTwo from "../service-icons/IconTwo";
@@ -9,6 +9,8 @@ import "bootstrap";
 import * as bootstrap from "bootstrap";
 
 export default function ServiceDashboard() {
+  let { selectedId, setSelectedId } = useState(1);
+
   useEffect(() => {
     addBootstrapToWindow();
   });

@@ -9,38 +9,29 @@ import ServiceDashboard from "./components/digital-service/ServiceDashboard";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Pricing from "./components/pricing/Pricing";
-
-//import fontawesome library
-import { library } from "@fortawesome/fontawesome-svg-core";
-
-//import icons
-import { fas } from "@fortawesome/free-solid-svg-icons";
-import { fab } from "@fortawesome/free-brands-svg-icons";
-import { far } from "@fortawesome/free-regular-svg-icons";
-
-//AOS animation
-import AOS from "aos";
-import "aos/dist/aos.css";
+import News from "./components/about/News";
+import Navbar from "./components/header/Navbar";
+import { Outlet } from "react-router-dom";
 
 function App() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
+  // useEffect(() => {
+
+  // }, []);
   return (
     <div className="App" id="home">
-      <div className="container mb-5">
-        <Header />
-        <DigitalService />
-      </div>
+      <Navbar />
+      <Outlet />
+      {/* <Header />
+      <DigitalService />
       <ServiceDashboard />
       <Pricing />
       <Adavntage />
       <About />
-      <Contact />
+      <News />
+      <Contact />*/}
       <Footer />
     </div>
   );
 }
 
 export default App;
-library.add(fas, fab, far);

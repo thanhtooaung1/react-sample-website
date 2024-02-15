@@ -5,8 +5,7 @@ import header from "../../images/header.svg";
 export default function Header() {
   return (
     <>
-      <div className="mt-3">
-        <Navbar />
+      <div className="container">
         <div className="row d-flex mt-5">
           <div className="col-lg-6 order-lg-1">
             <img

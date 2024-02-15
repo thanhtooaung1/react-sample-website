@@ -1,6 +1,5 @@
 import React from "react";
 import about from "../../images/about.svg";
-import News from "./News";
 import "../../css/About.css";
 
 export default function About() {
@@ -105,7 +104,6 @@ export default function About() {
           </div>
         </div>
       </div>
-      <News />
     </>
   );
 }
